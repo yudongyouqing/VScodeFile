@@ -1,0 +1,1 @@
+{"name":"Local: mine","url":"d:\\VScodeFile\\zzz\\mine.cpp","tests":[{"id":1731559312662,"input":"void test()\n{\n    int i, A[10];\n    for (i=0; i<10; i++) { /*/\n        A[i] = i;\n}\n.\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\VScodeFile\\zzz\\mine.cpp","group":"local","local":true}
