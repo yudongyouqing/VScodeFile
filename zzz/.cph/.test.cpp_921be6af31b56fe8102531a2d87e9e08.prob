@@ -1,1 +1,1 @@
-{"name":"Local: test","url":"d:\\VScodeFile\\zzz\\test.cpp","tests":[{"id":1737111645458,"input":"1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\VScodeFile\\zzz\\test.cpp","group":"local","local":true}
+{"name":"Local: test","url":"d:\\VScodeFile\\zzz\\test.cpp","tests":[{"id":1739520628074,"input":"1\n1","output":"50.00%"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\VScodeFile\\zzz\\test.cpp","group":"local","local":true}

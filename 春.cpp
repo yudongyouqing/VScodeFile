@@ -1,19 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
-ll ww(ll x, ll y, ll z) {
-    if (z == 1) {
-        return x;
-    }
-    if (z == 2) {
-        return y;
-    }
-    return ww(x, y, z - 1) + ww(x, y, z - 2);
-}
+
 void Solve(void) {
-    ll x = 3, y = 0;
-    ll len = 4;
-    cout << ww(x, y, len) << '\n';
+    ll x, y;
+    cin >> x >> y;
+    if (x == 1) {
+        cout << y + 10;
+    } else if (x == 2) {
+        cout << y + 1000000000;
+    } else {
+        cout << y + 1000000000000000000;
+    }
 }
 int main(void) {
     ios::sync_with_stdio(false), cin.tie(nullptr), cout.tie(nullptr);
